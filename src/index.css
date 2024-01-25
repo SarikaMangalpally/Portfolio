@@ -1,3 +1,66 @@
+@import './styles/footer.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+@font-face {
+    font-family: 'Shalimar';
+    src: url('/public/fonts/shalimar-Regular.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/public/fonts/Oswald-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Oswald Medium';
+    src: url('/public/fonts/Oswald-Medium.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Oswald Light';
+    src: url('/public/fonts/Oswald-Light.woff') format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Oswald Bold';
+    src: url('/public/fonts/Oswald-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('/public/fonts/Karla-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Karla Medium';
+    src: url('/public/fonts/Karla-Medium.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Karla Bold';
+    src: url('/public/fonts/Karla-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Karla Light';
+    src: url('/public/fonts/Karla-Light.woff') format('woff');
+    font-weight: 200;
+}
+}
+
+@layer components {
+    .social-links {
+        @apply border-solid border-1 border-white border-opacity-20 w-12 h-12 
+    }
+}
