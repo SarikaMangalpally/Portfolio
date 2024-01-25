@@ -1,0 +1,21 @@
+.text-hover-transition:after {
+    display: block;
+    content: "";
+    border-bottom: solid 1px #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.345s ease;
+    opacity: 0.5;
+
+}
+.text-hover-transition:hover::after {
+    transform: scaleX(0.245);
+    transform-origin: left;
+}
+
+@media (min-width: 768px) {
+    .text-hover-transition:hover::after {
+        transform: scaleX(0.285);
+        transform-origin: left;
+    }
+}
