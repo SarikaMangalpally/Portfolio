@@ -1,4 +1,5 @@
 @import './styles/footer.css';
+@import './styles/navbar.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -62,5 +63,11 @@
 @layer components {
     .social-links {
         @apply border-solid border-1 border-white border-opacity-20 w-12 h-12 
+    }
+    .nav-list-item {
+        @apply  mx-6 my-5 sm:mx-8 sm:my-7
+    }
+    .nav-list-names {
+        @apply text-hover-transition inline-block font-oswald-light capitalize tracking-wider text-16
     }
 }

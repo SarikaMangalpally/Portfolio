@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,jsx}"
   ],
   theme: {
+    zIndex: {
+      1: '1'
+    },
     screens: {
       sm: "648px",
       md: "768px",
@@ -65,7 +68,9 @@ export default {
         "mako-shark-dark": '#1C1D24',
         'olive-dark': '#46521F',
         'olive-light': '#5A682E',
-        'mango': '#FAAF52'
+        'mango': '#FAAF52',
+        'lemon-chiffon-light': '#FFFACD',
+        'lemon-chiffon-dark': '#F8F2BD'
       }
     },
   },

@@ -1,0 +1,13 @@
+.text-hover-transition:after {
+    display: block;
+    content: "";
+    border-bottom: solid 1px #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.345s ease;
+    opacity: 0.5;
+}
+.text-hover-transition:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
