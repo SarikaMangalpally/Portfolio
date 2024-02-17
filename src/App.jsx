@@ -1,11 +1,15 @@
 import Footer from './components/footer'
+import Header from './components/header'
+// import Home from './pages/home'
 
 function App() {
-
   return (
-    <main className=''>
-      {/* <h1>Hello Sarika! Welcome to your Portfolio</h1> */}
-      <Footer />
+    <main className='relative'>
+      <Header className=""/>
+      <div className="relative h-screen sm:ml-16">
+        {/* <Home className=""/> */}
+        <Footer className=""/>
+      </div>
     </main>
   )
 }
