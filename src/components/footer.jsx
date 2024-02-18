@@ -41,7 +41,7 @@ export default function Footer() {
             <div className="mb-10 ml-2 md:col-span-6 md:col-start-7 md:row-start-2 md:ml-0 lg:col-span-2 lg:row-start-1 lg:col-start-11 xl:col-start-10 xl:col-span-3">
                 <h6 className="text-sm md:text-base font-oswald uppercase leading-tight tracking-wide">Follow me here</h6>
                 <ul className="mt-10 md:mt-6 flex space-x-2.5 lg:space-x-0 lg:grid lg:grid-cols-2 lg:gap-2 xl:flex  xl:space-x-1">
-                    <li className="social-links relative"><a  href="https://www.linkedin.com/in/sarikamangalpally/" className="absolute translate-x-2.5 translate-y-2.5"><img src={Linkedin} className="h-4 md:h-5"></img></a></li>
+                    <li className="social-links relative"><a  href="https://www.linkedin.com/in/sarikamangalpally/" className="absolute translate-x-2.5 translate-y-2.5"><img src={Linkedin} className="h-4 md:h-5 m-1"></img></a></li>
                     <li className="social-links relative"><a  href="https://github.com/SarikaMangalpallyli" className=""><img src={Git} className="absolute translate-x-2.5 translate-y-2.5"></img></a></li>
                     <li className="social-links relative "><a  href="https://www.instagram.com/sarikamadipoju/" className=""><img src={Instagram} className="absolute translate-x-2.5 translate-y-2.5"></img></a></li>
                     <li className="social-links relative"><a  href="https://twitter.com/sarikamadipoju" className=""><img src={Twitter} className="absolute translate-x-2.5 translate-y-2.5"></img></a></li>
