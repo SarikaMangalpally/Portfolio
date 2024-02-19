@@ -7,7 +7,7 @@ export default function AboutMe () {
     let educationSummary = "Currently on the cusp of graduating with a Master's degree in Computer Science from the University of Louisiana at Lafayette this May."
     let closingSummary = "Thriving in cross-functional collaborations, I excel at leveraging diverse perspectives to deliver impactful results. Eager to embark on my next journey, I'm actively seeking full-time opportunities to contribute my expertise and creativity to cutting-edge projects. Let's build something extraordinary together!"
     return (
-        <div className='text-left my-8 xs:mb-20 relative sm:max-w-screen-md mx-2 sm:mx-5 md:mx-auto'>
+        <div className='text-left my-8 xs:mb-20 relative sm:max-w-screen-md mx-4 sm:mx-5 md:mx-auto'>
             <h2 className='font-oswald-light text-32 xs:text-36 lg:text-40 xl:text-54'>
                 {title}
             </h2>
