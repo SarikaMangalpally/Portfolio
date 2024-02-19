@@ -17,10 +17,10 @@ export default function Footer() {
                 <h6 className="text-sm md:text-base font-oswald uppercase leading-tight tracking-wide">navigations</h6>
                 <ul className="capitalize text-xs md:text-sm opacity-70 leading-5 mt-6 mb-2 space-y-1.5">
                     <li><a href='/'>Home</a></li>
-                    <li><a href='#'>About</a></li>
+                    <li><a href='/About'>About</a></li>
                     <li><a href='#'>portfolio</a></li>
                     <li><a href='#'>Projects</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='/Contact'>Contact</a></li>
                 </ul>
             </div>
             <div className="mb-10 ml-2 mr-5.5 md:col-span-6 md:col-start-1 md:col-end-7 md:row-start-2 lg:col-span-4 lg:col-start-8 lg:row-start-1 lg:ml-0 xl:col-start-7">
