@@ -9,8 +9,9 @@ export default {
       1: '1'
     },
     screens: {
-      sm: "648px",
-      md: "768px",
+      xs: "648px",
+      sm: '768px',
+      md: "920px",
       lg: "1024px",
       xl: "1280px"
     },
@@ -73,7 +74,9 @@ export default {
         'olive-light': '#5A682E',
         'mango': '#FAAF52',
         'lemon-chiffon-light': '#FFFACD',
-        'lemon-chiffon-dark': '#F8F2BD'
+        'lemon-chiffon-dark': '#F8F2BD',
+        'goldenrod-dark': '#B8860B',
+        'ash-gray': '#B2BEB5'
       }
     },
   },
