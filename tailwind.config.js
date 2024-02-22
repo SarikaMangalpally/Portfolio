@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  mode: 'jit',
   content: [
     "*.html",
     "./src/**/*.{js,jsx}"
@@ -77,6 +78,15 @@ export default {
         'lemon-chiffon-dark': '#F8F2BD',
         'goldenrod-dark': '#B8860B',
         'ash-gray': '#B2BEB5'
+      },
+      animation: {
+        marquee: 'marquee 25s linear infinite'
+      },
+      keyframes: {
+        marquee: {
+          '0%': {transform: 'translateX(0%)'},
+          '100%': {transform: 'translateX(-100%)'} 
+        }
       }
     },
   },
@@ -87,5 +97,6 @@ export default {
     }
   },
   plugins: [],
+  
 }
 
