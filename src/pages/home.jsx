@@ -3,8 +3,9 @@ import Usertie from "../assets/icons/user-tie.svg"
 import Graduate from "../assets/icons/user-graduate.svg"
 import Desktop from "../assets/icons/desktop.svg"
 
-import AboutMe from "../components/aboutMe"
-import ContactForm from "../components/contactForm"
+import AboutMeComponent from "../components/aboutMe"
+import ContactFormComponent from "../components/contactForm"
+import SkillsComponent from "../components/skills"
 
 export default function Home() {
     return (
@@ -39,15 +40,16 @@ export default function Home() {
                     </div>
                     <div className="space-x-2 cursor-pointer">
                         <a href="#" className="inline-block bg-olive-light text-white py-2 px-4 rounded-lg  hover:transform hover:-translate-y-0.5 drop-shadow-lg shadow-lime-90 active:scale-75 active:ease-in active:duration-300">Hire Me</a>
-                        <a href="#" className="inline-block underline drop-shadow-lg shadow-lime-900 py-2 px-4 rounded-lg hover:transform hover:-translate-y-0.5 bg-olive-light bg-opacity-5 active:scale-75 active:ease-in active:duration-300">Contact Me</a>
+                        <a href="#" className="inline-block underline drop-shadow-lg shadow-lime-900 py-2 px-4 rounded-lg hover:transform hover:-translate-y-0.5 bg-olive-light bg-opacity-5 active:scale-75 active:ease-in active:duration-300">Portfolio</a>
                     </div>
                 </div>
                 <div className="md:w-1/2 lg:h-full">
                     <img src="src/assets/hello.gif" className="w-full overflow-clip"></img>
                 </div>
             </div>
-            <AboutMe/>
-            <ContactForm/>
+            <AboutMeComponent/>
+            <SkillsComponent/>
+            <ContactFormComponent/>
         </div>
     )
 }
