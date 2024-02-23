@@ -16,6 +16,9 @@ export default {
       xl: "1280px"
     },
     extend: {
+      backgroundImage: {
+        'contact': "url('/src/assets/icons/contact-background.svg')"
+      },
       borderWidth: {
         1: "1px"
       },
