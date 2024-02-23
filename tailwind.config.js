@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   mode: 'jit',
   content: [
@@ -77,10 +76,12 @@ export default {
         'lemon-chiffon-light': '#FFFACD',
         'lemon-chiffon-dark': '#F8F2BD',
         'goldenrod-dark': '#B8860B',
-        'ash-gray': '#B2BEB5'
+        'ash-gray': '#B2BEB5',
+        'crayola': '#B5E48C',
+        'cinopya': '#dc2f02'
       },
       animation: {
-        marquee: 'marquee 25s linear infinite'
+        'marquee': 'marquee 20s linear infinite'
       },
       keyframes: {
         marquee: {
@@ -96,7 +97,9 @@ export default {
       borderOpacity: ['active']
     }
   },
-  plugins: [],
+  plugins: [
+    // require('@tailwindcss/animation')
+  ],
   
 }
 
