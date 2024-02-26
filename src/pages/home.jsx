@@ -2,7 +2,7 @@ import React from "react";
 import Usertie from "../assets/icons/user-tie.svg"
 import Graduate from "../assets/icons/user-graduate.svg"
 import Desktop from "../assets/icons/desktop.svg"
-
+import HelloGif from "../assets/hello.gif"
 import AboutMeComponent from "../components/aboutMe"
 import ContactFormComponent from "../components/contactForm"
 import SkillsComponent from "../components/skills"
@@ -44,7 +44,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="md:w-1/2 lg:h-full">
-                    <img src="src/assets/hello.gif" className="w-full overflow-clip"></img>
+                    <img src={HelloGif} className="w-full overflow-clip"></img>
                 </div>
             </div>
             <AboutMeComponent/>
