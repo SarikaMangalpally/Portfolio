@@ -3,7 +3,7 @@ export default function Navbar(props) {
     
     const showList = props.showNav
 
-    const navListItems = ['home', 'about', 'Portfolio', 'Contact Me', 'Resume']
+    const navListItems = ['home', 'about', 'Portfolio', 'Contact Me']
     return (
         <nav className={`${showList? '': 'bg-lemon-chiffon-light w-full absolute sm:top-0 sm:ml-14 sm:w-9/12 sm:transfrom sm:translate-y-1/2'}`}>
             <ul className={`${showList ? 'hidden': ' text-center'} h-full sm:top-0`}>
