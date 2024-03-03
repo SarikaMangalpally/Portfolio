@@ -25,7 +25,7 @@ export default function AboutMe () {
                 </div>
                 <div className='flex justify-between font-oswald-light my-4 py-2 text-16'>
                     <a href="/About" className='underline'>Know more<img src={Arrow} className='inline w-2 mx-2 rotate-45'></img></a>
-                    <a target='_blank' href='https://drive.google.com/file/d/1mYp69yvZh2Kh6OpZ44uFr3JrtYaIpzuf/view?usp=drive_link' rel="noreferrer">Download Resume</a>
+                    <a target='_blank' href='https://drive.google.com/file/d/1mYp69yvZh2Kh6OpZ44uFr3JrtYaIpzuf/view?usp=drive_link' rel="noreferrer" className='underline'>Download Resume</a>
                 </div>
             </div>
         </div>
