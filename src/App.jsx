@@ -11,7 +11,7 @@ function App() {
         <Header className=""/>
         <div className="relative sm:ml-16">
           <Routes>
-            <Route path='/' element={<Home/>}></Route>
+            <Route path='/Portfolio/' element={<Home/>}></Route>
             <Route path='/hire-me' element={<HireMe title='hire-me'/>}></Route>
               {/* <Home className=""/> */}
             
