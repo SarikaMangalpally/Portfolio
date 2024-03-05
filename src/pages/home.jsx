@@ -39,7 +39,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="space-x-2 cursor-pointer">
-                        <a href="#" className="inline-block bg-olive-light text-white py-2 px-4 rounded-lg  hover:transform hover:-translate-y-0.5 drop-shadow-lg shadow-lime-90 active:scale-75 active:ease-in active:duration-300">Hire Me</a>
+                        <a href="/hire-me" className="inline-block bg-olive-light text-white py-2 px-4 rounded-lg  hover:transform hover:-translate-y-0.5 drop-shadow-lg shadow-lime-90 active:scale-75 active:ease-in active:duration-300">Hire Me</a>
                         <a href="#" className="inline-block underline drop-shadow-lg shadow-lime-900 py-2 px-4 rounded-lg hover:transform hover:-translate-y-0.5 bg-olive-light bg-opacity-5 active:scale-75 active:ease-in active:duration-300">Portfolio</a>
                     </div>
                 </div>
