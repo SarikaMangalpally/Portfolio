@@ -1,6 +1,6 @@
 import React from "react";
 export default function About() {
     return (
-        <p>About me page.</p>
+        <p className="text-center">About me page.</p>
     )
 }
