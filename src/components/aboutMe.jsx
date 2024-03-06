@@ -1,5 +1,6 @@
 import {React} from 'react';
 import Arrow from '../assets/icons/arrow.svg';
+import { Link } from 'react-router-dom';
 
 export default function AboutMe () {
     let title = 'About Me'
@@ -24,7 +25,7 @@ export default function AboutMe () {
                     </p>
                 </div>
                 <div className='flex justify-between font-oswald-light my-4 py-2 text-16'>
-                    <a href="/About" className='underline'>Know more<img src={Arrow} className='inline w-2 mx-2 rotate-45'></img></a>
+                    <Link to="/Portfolio/about" className='underline'>Know more<img src={Arrow} className='inline w-2 mx-2 rotate-45'></img></Link>
                     <a target='_blank' href='https://drive.google.com/file/d/1dxtrpBqa5VwmeIQVDQeYVHtVMexMCgd-/view?usp=drive_link' rel="noreferrer" className='underline'>Download Resume</a>
                 </div>
             </div>

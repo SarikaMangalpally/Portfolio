@@ -11,7 +11,7 @@ export default function Navbar(props) {
 
                 const route = console.log(listItem.split(' ').length > 1 ? listItem.split(' ').join('-') : listItem);
                 return (
-                    <li className="nav-list-item"><a href={`/${route}`} className="nav-list-names ">{listItem}</a></li>
+                    <li className="nav-list-item" key={listItem}><a href={`/${route}`} className="nav-list-names ">{listItem}</a></li>
                     )
             })}
                 {/* <li className="nav-list-item"><a href="#" className="nav-list-names ">home</a></li>
