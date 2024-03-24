@@ -7,7 +7,7 @@ import MailArrow from "../assets/icons/mail-arrow.svg"
 
 export default function Footer() {
     return (
-        <footer className="pt-16 px-3 md:pt-16 md:px-6 text-white bg-gradient-to-r from-olive-dark to-olive-light  md:grid md:grid-cols-12 md:gap-3 xl:px-48">
+        <footer className="sm:ml-16 pt-16 px-3 md:pt-16 md:px-6 text-white bg-gradient-to-r from-olive-dark to-olive-light  md:grid md:grid-cols-12 md:gap-3 xl:px-48">
             <div className="ml-2 mr-5.5 mb-10 md:col-span-6 md:col-start-1 lg:col-span-5 xl:col-span-4">
                 <h6 className="text-sm md:text-base font-oswald uppercase leading-tight tracking-wide">About Me</h6>
                 <p className="text-xs md:text-sm opacity-70 leading-5 mt-6 mb-2">I am a graduate student at University of Louisiana at Lafayette. I love to develop applicaitons that makes tasks more automated.</p>
