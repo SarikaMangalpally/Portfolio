@@ -1,11 +1,14 @@
 import React from 'react'
+import HireImage from '../assets/hire.gif'
+
 export default function HireMe() {
     const title = 'Hire Me'
     return (
-        <div className="relative sm:ml-16 lg:ml-20 sm:px-6">
-            <h2 className='text-center Capitalize font-oswald-light text-32 xs:text-36 lg:text-40 xl:text-54'>
-                {title}
-            </h2>
+        <div className="sm:ml-16 lg:ml-20 sm:px-6">
+            <div className=''>
+
+            </div>
+            <img src={HireImage}></img>
             <div>
                 <form>
                 <p>Page under Construction!</p>

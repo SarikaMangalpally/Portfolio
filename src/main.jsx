@@ -11,10 +11,10 @@ const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path='/Portfolio' element={<Layout/>}>
             <Route path='' element={<Home/>}/>
-            <Route path='hire-me' element={<HireMe />}/>
             <Route path='my-work' element={<MyWork />}/>
             <Route path='about' element={<About/>}/>
             <Route path='*' element={<p>Not found</p>}/>
+            <Route path='hire-me' element={<HireMe />}/>
         </Route>
     )
 )
